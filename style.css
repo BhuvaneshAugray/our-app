@@ -36,6 +36,7 @@ nav{
 
 .landing-page p{
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .download-watch-video-section{
@@ -81,16 +82,34 @@ nav{
 
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
 
 .card-div{
-    width: 370px;
+    width: 350px;
     height: 370px;
     text-align: center;
-    box-shadow: 2px 2px 10px rgba(73, 157, 235, 0.5);  
+    box-shadow: 2px 2px 10px rgba(73, 157, 235, 0.5);
+    padding: 30px;  
+}
+
+.circle-for-card{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    background-color:#FFF4F5;
+    border-radius: 50%;
+}
+
+.circle-for-card img{
+    width: 45px;
+    position: absolute;
+    top: 25px;
+    right: 28px;
 }
 
 .card-div h4{
@@ -100,6 +119,7 @@ nav{
 .card-div p{
     font-size: 18px;
     color:#666666;
+    margin-top: 20px;
 
 }
 
