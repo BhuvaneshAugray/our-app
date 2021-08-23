@@ -1,0 +1,263 @@
+/*GOOGLE FONT Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.landing-page{
+    background: url(images/pink-background.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+nav{
+    background-color: #FF4363;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.landing-page h1{
+    font-size: 81px;
+}
+
+.landing-page p{
+    font-size: 18px;
+}
+
+.download-watch-video-section{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-page div button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    color: #FF4363;
+    border-radius:50px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.landing-page a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.landing-page a img{
+    width:16px;
+    height:20px;
+    margin-right: 10px;
+}
+
+
+
+.landing-page-illustration{
+    width: 400px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+
+/********Cards**********/
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.card-div{
+    width: 370px;
+    height: 370px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(73, 157, 235, 0.5);  
+}
+
+.card-div h4{
+    font-size:24px ;
+}
+
+.card-div p{
+    font-size: 18px;
+    color:#666666;
+
+}
+
+/********get-your-app********/
+
+.get-your-app{
+    background: url(images/pink-background-2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    
+}
+
+.get-your-app-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-your-app-for-next-waay-img{
+    width: 540px;
+    height: 530px;
+}
+
+.get-your-app div{
+    text-align: left;
+    color: white;
+}
+
+.get-your-app div h2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.get-your-app div p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.get-your-app div button{
+    width: 200px;
+    height: 70px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    color: #FF4363;
+    border: none;
+    border-radius: 50px;
+}
+
+
+
+/**********have-any-question**********/
+
+.have-any-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.have-any-question div:first-child{
+    width:600px;
+}
+
+.have-any-question div h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.have-any-question div h5{
+    color:#FF7588;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.have-any-question div div{
+    width: 80%;
+    color:#666666;
+    margin-bottom: 50px;
+}
+.have-any-question p:first-child{
+    font-size: 18px;
+}
+
+
+.have-any-question-img{
+    width: 400px;
+    height: 500px;
+}
+
+/********downloads-ratings-etc***********/
+
+.downloads-ratings-etc{
+    width: 1200px;
+    height: 300px;
+    background-color: #FF4363;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.downloads-ratings-etc div{
+    text-align: center;
+}
+
+.downloads-ratings-etc div p:first-child{
+    font-size:60px;
+}
+
+.downloads-ratings-etc div p:last-child{
+    font-size:18px;
+}
+
+/*******Still Not Lucky?******/
+
+.still-not-lucky div{
+    text-align: center;
+    width: 600px;
+    height: 250px;
+}
+
+.still-not-lucky div h2{
+    color: #222222;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.still-not-lucky div p{
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.still-not-lucky div button{
+    background-color: #FF4363;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 70px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+
+/*******FOOTER***********/
+
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
