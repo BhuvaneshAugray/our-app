@@ -12,17 +12,22 @@ p{
     margin-bottom: 0;
 }
 
+/*********landing page***********/
+
 .landing-page{
-    background: url(images/pink-background.png);
+    background: url(images/pink-bg-1.png);
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    /*background-size:cover;*/
+    background-position: bottom center;
+    padding-bottom: 70px;
+    width: 100%;
+    height: auto;
     color: white;
     position: relative;
     margin-bottom: 80px;
 }
 
-nav{
+.navbar .container{
     background-color: #FF4363;
 }
 
@@ -30,8 +35,16 @@ nav{
     font-size: 40px;
 }
 
+.landing-page-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .landing-page h1{
-    font-size: 81px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
 }
 
 .landing-page p{
@@ -46,7 +59,7 @@ nav{
     align-items: center;
 }
 
-.landing-page div button{
+.download-app-btn{
     width: 200px;
     height: 70px;
     border: none;
@@ -56,9 +69,10 @@ nav{
     font-size: 20px;
 }
 
-.landing-page a{
+.Watch-Video{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 
 }
 
@@ -71,10 +85,10 @@ nav{
 
 
 .landing-page-illustration{
-    width: 400px;
-    position: absolute;
+    width: 450px;
+    /*position: absolute;
     bottom: 40px;
-    right: 40px;
+    right: 40px;*/
 }
 
 
@@ -123,12 +137,161 @@ nav{
 
 }
 
+/*****We-designed-perfect-app-for-you*********/
+
+.We-designed-perfect-app-for-you{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.We-designed-perfect-app-for-you-img{
+    width: 45%;
+}
+
+.We-designed-perfect-app-for-you>div{
+    width: 45%;
+}
+
+.circle-div{
+    position: relative;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    background-color:#FFF4F5;
+    border-radius: 50%;
+}
+
+.music-icon{
+    position: absolute;
+    width:50px;
+    left: 21px;
+    top:23px;
+
+}
+
+.We-designed-perfect-app-for-you div h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.We-designed-perfect-app-for-you div p{
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.We-designed-perfect-app-for-you div ul{
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.We-designed-perfect-app-for-you div ul li::before {
+    content: "\2022";
+    color: #FF4363;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .We-designed-perfect-app-for-you div button{
+    background-color: #FF4363;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+/*******our-app-features*******/
+
+.our-app-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    
+} 
+
+.our-app-features>div{
+    width: 45%;
+}
+
+.circular-div{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color:#FFF4F5;
+    border-radius: 50%;
+}
+
+.heart-icon{
+    position: absolute;
+    width:50px;
+    top: 30px;
+    left: 25px;
+}
+
+.our-app-features div h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pink-circle{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color:#FFF4F5;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.icons{
+    position: absolute;
+    top:20px;
+    left:21px ;
+}
+
+.our-app-features-sub-heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.our-app-features-sub-heading h5{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.our-app-features div p{
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.our-app-features-img{
+    width:45%;
+}
+
 /********get-your-app********/
 
 .get-your-app{
+    padding-top: 20px;
     background: url(images/pink-background-2.png);
     background-repeat: no-repeat;
-    margin-bottom: 80px;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 140px;
     
 }
 
@@ -138,9 +301,14 @@ nav{
     align-items: center;
 }
 
+.get-your-app-main>div{
+    width:45%;
+}
+
 .get-your-app-for-next-waay-img{
-    width: 540px;
-    height: 530px;
+    /*width: 540px;
+    height: 530px;*/
+    width: 45%;
 }
 
 .get-your-app div{
@@ -149,7 +317,7 @@ nav{
 }
 
 .get-your-app div h2{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -160,10 +328,10 @@ nav{
 }
 
 .get-your-app div button{
-    width: 200px;
-    height: 70px;
+    width: 130px;
+    height: 40px;
     background-color: #FFFFFF;
-    font-size: 24px;
+    font-size: 16px;
     color: #FF4363;
     border: none;
     border-radius: 50px;
@@ -186,10 +354,11 @@ nav{
 }
 
 .have-any-question div h2{
-    font-size: 55px;
+    font-size: 40px;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
+
 
 .have-any-question div h5{
     color:#FF7588;
@@ -215,7 +384,6 @@ nav{
 /********downloads-ratings-etc***********/
 
 .downloads-ratings-etc{
-    width: 1200px;
     height: 300px;
     background-color: #FF4363;
     display: flex;
@@ -248,7 +416,7 @@ nav{
 
 .still-not-lucky div h2{
     color: #222222;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -264,9 +432,9 @@ nav{
     color: white;
     border: none;
     border-radius: 50px;
-    width: 200px;
-    height: 70px;
-    font-size: 24px;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
@@ -280,4 +448,13 @@ footer{
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+footer>div{
+    text-align: center;
+}
+
+footer>div p:first-child{
+    font-size: 40px;
+    font-weight: 600;
 }

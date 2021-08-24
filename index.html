@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <!--Bootstrap-5 CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--CSS link-->
     <link rel="stylesheet" href="style.css">
     <title>Our App</title>
@@ -15,9 +16,9 @@
     <section class="wrapper">
         <div class="landing-page">
     <!--Navbar-->
-    <header>
+    <header class="header">
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-dark">
+        <nav class="navbar navbar-expand-xxl navbar-dark text-white">
 
             <div class="container">
 
@@ -29,19 +30,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex align-items-center ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" aria-current="page" href="#">Features</a>
+                    <a class="nav-link fw-bold text-white" aria-current="page" href="#">Features</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" aria-current="page" href="#">Integrations</a>
+                    <a class="nav-link fw-bold text-white" aria-current="page" href="#">Integrations</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" aria-current="page" href="#">Pricing</a>
+                    <a class="nav-link fw-bold text-white" aria-current="page" href="#">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">Company</a>
+                    <a class="nav-link fw-bold text-white" href="#">Company</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">Blog</a>
+                    <a class="nav-link fw-bold text-white" href="#">Blog</a>
                   </li>
                 </ul>
               </div>
@@ -54,12 +55,11 @@
         <div class="content-1">
             <h1>Download Our<br>
                 app and enjoy!</h1>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply randa text. has <br>
-                roots in a piece of classical Latin literature from BC, making it over <br>
-                2000 years old. Richard McClintock.</p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply randa<br> text. has 
+                roots in a piece of classical Latin literature <br> from BC, making it over.</p>
             <div class="download-watch-video-section">
-                <button class="download-btn">Download App</button>
-                <a href="#"><img src="images/play-btn.png" alt=""> Watch Video</a>
+                <button class="download-app-btn">Download App</button>
+                <a class="Watch-Video" href="#"><img src="images/play-btn.png" alt=""> Watch Video</a>
             </div>
         </div>
 
@@ -101,7 +101,12 @@
     </Section>
 
     <!--We designed perfect app for you-->
-    <section>
+    <section class="We-designed-perfect-app-for-you container">
+        <img class="We-designed-perfect-app-for-you-img" src="images/We-designed-perfect-app-for-you.png" alt="">
+
+        <div>
+
+        <div class="circle-div"><img class="music-icon" src="images/Icon awesome-music@2X.png" alt=""></div>
         <h2>We Designed Perfect
             App for You</h2>
 
@@ -110,41 +115,46 @@
             elementum. Vestibulum euismod accumsan.</p>
 
         <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
             <li>Lorem ipsum dolor sit amet consectetur.</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
         </ul>
-
         <button>Learn More</button>
+        </div>
+
+        
     </section>
 
     <!--Our App features-->
 
-    <section class="our-app-features">
+    <section class="our-app-features container">
 
-    <div class="our-app-features-content">
+    <div>
+    <div class="circular-div"><img class="heart-icon" src="images/Icon awesome-heart@2X.png" alt=""></div>
+
+    <h2>Our App Features</h2>
 
     <p>Cras accumsan pretium dignissim. Curabitur a orci lorem.
-        Phasellus tempor dolor vel odio efficitur ac sollicitudin.</p>
+        Phasellus tempor dolor Phasellus tempor.</p>
 
-    <h5>Instant Notifications</h5>
-
-    <p>Duis vestibulum elit vel neque pharetra vulputate. Quisque Proin
-        scelerisque nisi urna. Duis rutrum non risus in imperdiet.</p>
-
-    <h5>User Friendly</h5>
+    <div class="our-app-features-sub-heading"><div class="pink-circle"><img class="icons" src="images/bell-icon.png" alt=""></div><h5>Instant Notifications</h5></div>
 
     <p>Duis vestibulum elit vel neque pharetra vulputate. Quisque Proin
-        scelerisque nisi urna. Duis rutrum non risus in imperdiet.</p>
+        scelerisque nisi urna Phasellur.</p>
 
-    <h5>Secure & Reliable</h5>
+    <div class="our-app-features-sub-heading"><div class="pink-circle"><img class="icons" src="images/person-icon.png" alt=""></div><h5>User Friendly</h5></div>
 
     <p>Duis vestibulum elit vel neque pharetra vulputate. Quisque Proin
-        scelerisque nisi urna. Duis rutrum non risus in imperdiet.</p>
+        scelerisque nisi urna Phasellus.</p>
+
+    <div class="our-app-features-sub-heading"><div class="pink-circle"><img class="icons" src="images/thumbs-up-icon.png" alt=""></div><h5>Secure & Reliable</h5></div>
+
+    <p>Duis vestibulum elit vel neque pharetra vulputate. Quisque Proin
+        scelerisque nisi urna Phasellus.</p>
 
     </div>
 
-    <img src="" alt="">
+    <img class="our-app-features-img" src="images/our-app-features-img.png" alt="">
 
     </section>
 
@@ -233,9 +243,11 @@
     </section>
 
     <!--footer-->
-    <footer class="container-fluid p-4">
-        <p>LOGO</p>
-        <p>2020 Copyrights & Protected</p>
+    <footer class="container-fluid p-2">
+        <div>
+            <p class="text-align-center">LOGO</p>
+            <p class="text-align-center">2020 Copyrights & Protected</p>
+        </div>
     </footer>
 </section>
 
