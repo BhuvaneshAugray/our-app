@@ -61,7 +61,8 @@ p{
 
 .download-app-btn{
     width: 200px;
-    height: 70px;
+    height: 50px;
+    font-weight: 500;
     border: none;
     color: #FF4363;
     border-radius:50px;
